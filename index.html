@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 12</title>
+    <style>
+        label{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .gran{
+            font-size: larger;
+        }
 
+    </style>
+</head>
+<body>
+    <h1><b>Carro eletrico eltrico</b> </h1>
+        <form action="Cadastro.php" method="POST">
+            <label class="gran" for="inome">Nome completo:</label><br><br>
+            <input type="text" name="nome" id="inome" minlength="5" maxlength="15" placeholder="Digite o nome compleato" size="20"><br><br>
+
+            <label  class="gran" for="imod">Modelo de Caroo Elétrico Favorito :</label><br><br>
+            <input type="text" name="mod" id="imod" minlength="8" maxlength="20" placeholder="EX : Tesla Model X" size="20"><br><br>
+
+            <label class="gran"  for="isem">Crie uma Senha de acesso :</label><br><br>
+            <input type="text" name="senha" id="isem" minlength="6" maxlength="15" placeholder="Minimo 6 caracters" size="20"><br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+
+    </table>
+    </body>
+</html>
